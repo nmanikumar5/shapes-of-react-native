@@ -136,6 +136,23 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<!--
+var HalfCircle = React.createClass({
+render: function() {
+return (
+<view style="{[styles.halfCircle," this.props.style]}=""/>
+)
+}
+})
+halfCircle: {
+height:25,
+width:50,
+backgroundColor:'red',
+borderTopLeftRadius:27.5,
+borderTopRightRadius:27.5,
+}
+-->
+
 <h3>Oval</h3>
 
 <p>Border radius wasn&rsquo;t working, lets just do a circle and scale it&hellip;</p>
