@@ -1,7 +1,7 @@
 # shapes-of-react-native
 
 <div class="content">
-	
+    
 <p>After drawing a bit of inspiration from <a href="http://enjoycss.com/gallery/shapes">ENJOY CSS Shapes</a> We decided to see if I could remake some of these shapes with a subset of css.
 
 
@@ -136,22 +136,43 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<!--
-var HalfCircle = React.createClass({
-render: function() {
-return (
-<view style="{[styles.halfCircle," this.props.style]}=""/>
-)
-}
-})
-halfCircle: {
-height:25,
-width:50,
-backgroundColor:'red',
-borderTopLeftRadius:27.5,
-borderTopRightRadius:27.5,
-}
--->
+
+<h3>Half Circle</h3>
+
+
+<p><img src="https://i.stack.imgur.com/Y6wwV.png" title="" ></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>var HalfCircle = React.createClass({
+</span><span class='line'>    render: function() {
+</span><span class='line'>        return (
+</span><span class='line'>            &lt;View style={[styles.halfCircle, this.props.style]} /&gt;
+</span><span class='line'>        )
+</span><span class='line'>    }
+</span><span class='line'>})
+</span><span class='line'>
+</span><span class='line'>halfCircle: {
+</span><span class='line'>    width: 50,
+</span><span class='line'>    height: 100,
+</span><span class='line'>    borderTopLeftRadius: 27.5,
+                              borderTopRightRadius:27.5,
+</span><span class='line'>    backgroundColor: 'red'
+</span><span class='line'>}
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>Oval</h3>
 
@@ -3034,7 +3055,7 @@ Also weird border issue causing outlines.</p>
 <p><img src="http://i.imgur.com/cWR7FKh.gif" title="Stay in school kids" ></p>
 Tagged under
  <a href="http://browniefed.com/blog/the-shapes-of-react-native/">Reference</a> 
-		
+        
 
 </div>
         
